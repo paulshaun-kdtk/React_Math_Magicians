@@ -189,16 +189,16 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+>The following will be added to the application in future
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Multiple Pages]**
+- [ ] **[More Information]**
+- [ ] **[Mobile-first UI]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- -->
+
 
 <!-- CONTRIBUTING -->
 
