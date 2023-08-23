@@ -1,27 +1,38 @@
+.Calculator {
+  margin: 4% auto;
+  max-width: 80%;
+}
+
 .Numbers {
-  padding: 30px;
+  padding: 40px;
+  max-width: 40px;
 }
 
-.Other > button {
-  padding: 27px;
-}
-
-#zeroBtn {
-  padding: 30px;
-  width: 9%;
+.Numbers:hover,
+:active {
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .Header {
-  background-color: gray;
-  color: white;
-  width: 17.5%;
-  height: 12%;
-  display: flex;
-  justify-content: flex-end;
   margin: auto;
-  z-index: 2;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.Calculator {
-  margin-top: 4%;
+#zeroBtn {
+  padding-inline: 80px;
+}
+
+#symbols {
+  background-color: rgb(255, 174, 24);
+}
+
+#symbols:hover {
+  background-color: rgba(255, 174, 24, 0.3);
 }

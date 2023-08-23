@@ -1,12 +1,17 @@
 import React from 'react';
 import './ButtonStyles.css';
 
-function Header() {
+function CalculatorHeader({ calculatorData }) {
   return (
     <div className="Header">
-      <span>0 </span>
+      <div>
+        <h4>{calculatorData.total}</h4>
+      </div>
+      <div>
+        <h5>{calculatorData.next}</h5>
+      </div>
     </div>
   );
 }
 
-export default Header;
+export default CalculatorHeader;
