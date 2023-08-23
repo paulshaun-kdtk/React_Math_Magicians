@@ -1,0 +1,27 @@
+.Numbers {
+  padding: 30px;
+}
+
+.Other > button {
+  padding: 27px;
+}
+
+#zeroBtn {
+  padding: 30px;
+  width: 9%;
+}
+
+.Header {
+  background-color: gray;
+  color: white;
+  width: 17.5%;
+  height: 12%;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  z-index: 2;
+}
+
+.Calculator {
+  margin-top: 4%;
+}

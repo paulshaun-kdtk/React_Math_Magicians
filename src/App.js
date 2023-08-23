@@ -1,14 +1,13 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World
-        </p>
 
-      </header>
+      <div className="Calculator">
+        <Calculator />
+      </div>
     </div>
   );
 }
