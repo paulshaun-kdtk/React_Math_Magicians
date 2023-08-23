@@ -37,3 +37,15 @@
 #symbols:hover {
   background-color: rgba(255, 174, 24, 0.3);
 }
+
+
+/* quotes */
+
+.Quote {
+  max-width: 40%;
+  margin: 10% auto;
+}
+
+.Quote > ul {
+  list-style: georgian;
+}

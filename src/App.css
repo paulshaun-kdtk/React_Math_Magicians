@@ -5,3 +5,8 @@
 .App-link {
   color: #61dafb;
 }
+
+.Container {
+  display: flex;
+  justify-content: space-evenly;
+}
