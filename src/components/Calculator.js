@@ -1,47 +1,39 @@
 import React from 'react';
 import Button from './Button';
-import Header from './CalculatorHeader';
-import './ButtonStyles.css';
-
-// end imports
-
-function renderButton(i) {
-  const symbols = ['/', '*', '-', '+', '='];
-  return <Button value={i} isSymbol={symbols.includes(i.toString())} />;
-}
+import CalculatorHeader from './CalculatorHeader';
 
 function Calculator() {
   return (
     <div className="Calculator">
-      <Header />
-      <div className="Other">
-        {renderButton('AC')}
-        {renderButton('+/-')}
-        {renderButton('%')}
-        {renderButton('/')}
+      <CalculatorHeader />
+      <div>
+        <Button value="AC" />
+        <Button value="+/-" />
+        <Button value="%" />
+        <Button value="÷" id="symbols" />
       </div>
       <div>
-        {renderButton(7)}
-        {renderButton(8)}
-        {renderButton(9)}
-        {renderButton('*')}
+        <Button value="7" />
+        <Button value="8" />
+        <Button value="9" />
+        <Button value="x" id="symbols" />
       </div>
       <div>
-        {renderButton(4)}
-        {renderButton(5)}
-        {renderButton(6)}
-        {renderButton('-')}
+        <Button value="4" />
+        <Button value="5" />
+        <Button value="6" />
+        <Button value="-" id="symbols" />
       </div>
       <div>
-        {renderButton(1)}
-        {renderButton(2)}
-        {renderButton(3)}
-        {renderButton('+')}
+        <Button value="1" />
+        <Button value="2" />
+        <Button value="3" />
+        <Button value="+" id="symbols" />
       </div>
-      <div className="Other2">
-        <button id="zeroBtn" type="button">0</button>
-        {renderButton('.')}
-        {renderButton('=')}
+      <div>
+        <Button value="0" id="zeroBtn" />
+        <Button value="." />
+        <Button value="=" id="symbols" />
       </div>
     </div>
   );

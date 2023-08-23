@@ -1,11 +1,10 @@
 import React from 'react';
 import './ButtonStyles.css';
 
-const Button = ({ value, isSymbol }) => {
-  const style = isSymbol ? { backgroundColor: 'orange' } : null;
-  return (
-    <button className="Numbers" style={style} type="button">{value}</button>
-  );
-};
+const Button = ({ value, onClick, id }) => (
+  <button className="Numbers" type="button" onClick={onClick} id={id}>
+    {value}
+  </button>
+);
 
 export default Button;
