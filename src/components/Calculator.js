@@ -39,7 +39,7 @@ function Calculator() {
         {renderButton('+')}
       </div>
       <div className="Other2">
-        <button id="zeroBtn">0</button>
+        <button id="zeroBtn" type="button">0</button>
         {renderButton('.')}
         {renderButton('=')}
       </div>
