@@ -1,0 +1,38 @@
+.Calculator {
+  margin: 4% auto;
+  max-width: 80%;
+}
+
+.Numbers {
+  padding: 40px;
+  max-width: 40px;
+}
+
+.Numbers:hover,
+:active {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.Header {
+  margin: auto;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#zeroBtn {
+  padding-inline: 80px;
+}
+
+#symbols {
+  background-color: rgb(255, 174, 24);
+}
+
+#symbols:hover {
+  background-color: rgba(255, 174, 24, 0.3);
+}
