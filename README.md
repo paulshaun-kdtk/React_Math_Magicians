@@ -177,7 +177,7 @@ Example:
 
 👤 **Author**
 
-- github [https://github.com/paulshaun_kdtk]
+- github [paulshaun-kdtk](https://github.com/paulshaun-kdtk)
 - Instagram: [@_shaun_s](https://www.instagram.com/_.shaun.s_/)
 - Twitter: [@shaun30032006](https://twitter.com/ShaunPa30032006)
 - LinkedIn: [paulshaun](https://www.linkedin.com/in/shaun-sungai-b54339263/)
