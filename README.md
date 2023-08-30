@@ -187,7 +187,6 @@ Example:
 
 >The following will be added to the application in future
 
-- [ ] **[Multiple Pages]**
 - [ ] **[More Information]**
 - [ ] **[Mobile-first UI]**
 

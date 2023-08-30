@@ -8,5 +8,15 @@
 
 .Container {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mainContent {
+  margin: 10% 0 0 0;
+}
+
+.mainContent > p {
+  margin: auto;
+  max-width: 40%;
 }

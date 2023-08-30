@@ -1,5 +1,5 @@
 .Calculator {
-  margin: 4% auto;
+  margin: 10% auto;
   max-width: 80%;
 }
 
@@ -41,10 +41,57 @@
 /* quotes */
 
 .Quote {
-  max-width: 40%;
   margin: 10% auto;
+  max-width: 60%;
 }
 
 .Quote > ul {
   list-style: georgian;
+}
+
+.Quote > ul > li > b {
+  margin: 10% auto;
+  color: orange;
+}
+
+/* navbar */
+.navBar {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+}
+
+.navBarItems {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #000;
+  color: white;
+}
+
+.navHeading {
+  font-size: 16px;
+  color: #fff;
+  font-family: cursive;
+  font-style: italic;
+  text-decoration: none;
+  margin: 1% 0 0 0;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline: 20px;
+}
+
+.navLinks > li > a {
+  color: white;
+  padding-inline: 20px;
+  text-decoration: none;
+}
+
+.navLinks > li > a:hover {
+  color: orange;
+  font-size: 20px;
 }
