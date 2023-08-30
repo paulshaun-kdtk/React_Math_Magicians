@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './ButtonStyles.css';
+import NavBar from './NavBar';
+import '../App.css';
 
 // end imports
 
@@ -44,17 +46,20 @@ function Quotes() {
   }
 
   return (
-    <div className="Quote">
-      <h1>Quote</h1>
-      <ul>
-        {data.map((quote, index) => (
-          <li key={index}>
-            <i>{quote.quote}</i>
-            <br />
-            <b>{quote.author}</b>
-          </li>
-        ))}
-      </ul>
+    <div className="Container">
+      <NavBar />
+      <div className="Quote">
+        <h2>Quote:</h2>
+        <ul>
+          {data.map((quote, index) => (
+            <li key={index}>
+              <i>{quote.quote}</i>
+              <br />
+              <b>{quote.author}</b>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
