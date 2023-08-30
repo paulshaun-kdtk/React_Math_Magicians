@@ -17,7 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -81,15 +81,13 @@
 - **[api_data_pull]**
 <!-- - **[key_feature_3]** -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 > coming soon
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://google.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +173,7 @@ Example:
 
 👤 **Author**
 
-- github [https://github.com/paulshaun_kdtk]
+- github [paulshaun-kdtk](https://github.com/paulshaun-kdtk)
 - Instagram: [@_shaun_s](https://www.instagram.com/_.shaun.s_/)
 - Twitter: [@shaun30032006](https://twitter.com/ShaunPa30032006)
 - LinkedIn: [paulshaun](https://www.linkedin.com/in/shaun-sungai-b54339263/)
@@ -185,16 +183,16 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+>The following will be added to the application in future
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Multiple Pages]**
+- [ ] **[More Information]**
+- [ ] **[Mobile-first UI]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- -->
+
 
 <!-- CONTRIBUTING -->
 
